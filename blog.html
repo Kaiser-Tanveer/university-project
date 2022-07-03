@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>University Website Design - Kaiser Tanveer</title>
+</head>
+<body>
+
+    <!-- Header Section starts from here -->
+
+<section class="sub-header">
+    <nav>
+        <a href="#"><img src="Images/logo.png"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                            <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Our Certificates & Online Programmes for 2022</h1>
+</section>
+
+<!-- Header Section ends here -->
+
+
+
+<!-- blog page content starts from here -->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="courseImage/certificate.jpg">
+                <h2>Our Certificates & Online Programmes for 2022</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, repudiandae quasi qui explicabo, perferendis maiores blanditiis quia deserunt nobis est repellendus obcaecati dolor sed dolorum officia ipsum ipsa eaque enim?</p>
+                        <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem labore nobis quis aliquam excepturi nostrum laborum placeat nemo, dicta quae, doloremque ex perspiciatis vitae natus voluptate fugit. Nihil vitae voluptas quaerat nemo, minima rem, possimus tempore, ad sint similique earum in quisquam explicabo. Modi exercitationem culpa sint eum voluptates?</p>
+                        <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur pariatur voluptas quisquam, possimus tenetur voluptatibus cumque tempora sequi, voluptatum ex officiis debitis vitae autem expedita, a delectus deserunt itaque quo adipisci explicabo repudiandae. Nemo nisi reprehenderit eum laboriosam harum nulla fugiat adipisci, molestias nam soluta odit laudantium impedit ab cum accusantium atque sequi voluptatibus id voluptatem quo numquam tempora exercitationem rem a! Architecto perspiciatis harum deleniti tenetur quam mollitia cupiditate nihil non voluptatum officia ut quae pariatur, fugit sed tempore.</p>
+                <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro odit qui recusandae quam atque vero ea ipsam, quis, ex perspiciatis fugit nihil maxime doloremque unde, nostrum in numquam iure officia. Debitis quisquam officia laboriosam delectus deleniti nulla totam sed!</p>
+
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+
+
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Catagories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>28</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer Section starts from here -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quaerat dolore repudiandae ul <br> lam dicta quibusdam quia aut. Ut officiis rem eligendi dicta excepturi aut praesentium.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i> by Kaiser Tanveer</p>
+</section>
+
+
+
+
+<!-- JavaScript for toogler Menu -->
+
+<script>
+
+    var navLink = document.getElementById("navLink");
+        function showMenu (){
+            navLink.style.right = "0";
+        }
+        function hideMenu (){
+            navLink.style.right = "-200px";
+        }
+
+
+</script>
+</body>
+</html>
